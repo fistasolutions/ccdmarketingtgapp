@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-ibm {
+  font-family: var(--font-ibm-plex-sans);
+}
+.font-inter {
+  font-family: var(--font-inter);
+}
+body{
+  font-family: var(--font-ibm-plex-sans), sans-serif;
+}
+
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('/fonts/Satoshi-Regular.woff2') format('woff'),
+       url('/fonts/Satoshi-Regular.woff2') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+.font-satoshi{
+  font-family: 'Satoshi-Regular';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('/fonts/Satoshi-Regular.woff2') format('woff'),
+       url('/fonts/Satoshi-Regular.woff2') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+.font-satoshi-bold{
+  font-family: 'Satoshi-Regular';
+  src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('/fonts/Satoshi-Regular.woff2') format('woff'),
+       url('/fonts/Satoshi-Regular.woff2') format('truetype');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+
+.claimDiv{
+  background: rgb(237,218,191);
+background: radial-gradient(circle, rgba(237,218,191,1) 0%, rgba(164,154,227,1) 35%, rgba(158,242,235,1) 100%);
+width: 95%;
+height: 95vh;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.cardBack{
+  background: rgb(237,218,191);
+  background: radial-gradient(circle, rgba(237,218,191,1) 0%, rgba(164,154,227,1) 35%, rgba(158,242,235,1) 100%);
+  width: 100%;
+  padding: 1;
+  border-radius: 4px;
+}
+
+#claimButton{
+  background: rgb(237,218,191);
+  background: radial-gradient(circle, rgba(237,218,191,1) 0%, rgba(164,154,227,1) 35%, rgba(158,242,235,1) 100%);
+
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #9EF2EBCC;
+}
