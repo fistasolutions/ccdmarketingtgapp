@@ -73,60 +73,88 @@ ccdmarketingtgapp/
 1. Clone the repository:
    ```bash
    git clone https://github.com/fistasolutions/ccdmarketingtgapp.git
+   ```
 
-Navigate to the project directory:
-bash
-Copy code
-cd ccdmarketingtgapp
-Install dependencies:
-bash
-Copy code
-npm install
-Start the development server:
-bash
-Copy code
-npm run dev
-Tech Stack
-Frontend: Next.js, TailwindCSS
-Backend: Node.js, Telegram Bot API
-Database: PostgreSQL
-API Endpoints
-Task Endpoints
-POST /api/tasks: Add a new task.
-GET /api/tasks: Get all tasks.
-PUT /api/tasks/:id: Edit a task.
-DELETE /api/tasks/:id: Delete a task.
-Weekly Streak Endpoints
-POST /api/streaks: Add a new streak.
-GET /api/streaks: Get all streaks.
-PUT /api/streaks/:id: Edit a streak.
-DELETE /api/streaks/:id: Delete a streak.
-Quiz Endpoints
-POST /api/quizzes: Add a new quiz.
-GET /api/quizzes: Get all quizzes.
-PUT /api/quizzes/:id: Edit a quiz.
-DELETE /api/quizzes/:id: Delete a quiz.
-Lottery System
-GET /api/lottery/spin: Spin the wheel and get the result.
-POST /api/lottery/config: Configure the lottery system.
-Admin Panel Functionality
+2. Navigate to the project directory:
+   ```bash
+   cd ccdmarketingtgapp
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, TailwindCSS
+- **Backend**: Node.js, Telegram Bot API
+- **Database**: PostgreSQL
+
+---
+
+## 📋 API Endpoints
+
+### **Task Endpoints**
+- **POST** `/api/tasks`: Add a new task.
+- **GET** `/api/tasks`: Get all tasks.
+- **PUT** `/api/tasks/:id`: Edit a task.
+- **DELETE** `/api/tasks/:id`: Delete a task.
+
+### **Weekly Streak Endpoints**
+- **POST** `/api/streaks`: Add a new streak.
+- **GET** `/api/streaks`: Get all streaks.
+- **PUT** `/api/streaks/:id`: Edit a streak.
+- **DELETE** `/api/streaks/:id`: Delete a streak.
+
+### **Quiz Endpoints**
+- **POST** `/api/quizzes`: Add a new quiz.
+- **GET** `/api/quizzes`: Get all quizzes.
+- **PUT** `/api/quizzes/:id`: Edit a quiz.
+- **DELETE** `/api/quizzes/:id`: Delete a quiz.
+
+### **Lottery System**
+- **GET** `/api/lottery/spin`: Spin the wheel and get the result.
+- **POST** `/api/lottery/config`: Configure the lottery system.
+
+---
+
+## 🖥️ Admin Panel Functionality
+
 The admin panel is a web-based interface that provides the following features:
 
-Role-Based Authentication: Secure login with role-specific permissions.
-Task Management: Create, update, and delete marketing tasks.
-Streak Management: Define weekly streak rewards.
-Quiz Creation: Build quizzes with dynamic questions and rewards.
-Referral Tracking: Manage referral bonuses and conversion analytics.
-Lottery Configuration: Set up and manage the daily lottery system.
-Contributing
+- **Role-Based Authentication**: Secure login with role-specific permissions.
+- **Task Management**: Create, update, and delete marketing tasks.
+- **Streak Management**: Define weekly streak rewards.
+- **Quiz Creation**: Build quizzes with dynamic questions and rewards.
+- **Referral Tracking**: Manage referral bonuses and conversion analytics.
+- **Lottery Configuration**: Set up and manage the daily lottery system.
+
+---
+
+## 🤝 Contributing
+
 We welcome contributions to the CCD Marketing TG App! Please fork the repository, make your changes, and submit a pull request. Make sure your code adheres to our style guidelines and passes all lint checks.
 
-License
+---
+
+## 📜 License
+
 This project is licensed under the MIT License.
 
-Contact
+---
+
+## 📞 Contact
+
 For inquiries or support, please reach out to:
 
-Company: FISTA Solutions
-Website: fistasolutions.com
-Telegram App: CCD Marketing TG App
+- **Company**: FISTA Solutions
+- **Website**: fistasolutions.com
+- **Telegram App**: CCD Marketing TG App
